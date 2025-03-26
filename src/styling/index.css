@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  /* background-color: #fd2c2a; */
+  color: black;
+  background-color: #fff0f5;
+  position: relative;
+  min-height: screen;
+  width: 100vw;
+  font-family: "Helvetica_Now_Display";
+  overflow-y: hidden !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+canvas {
+  pointer-events: none;
+}

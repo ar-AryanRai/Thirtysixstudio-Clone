@@ -1,0 +1,49 @@
+.theme-toggle {
+  width: 60px;
+  height: 28px;
+  border-radius: 30px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.theme-toggle.dark {
+  background: #000;
+  border-color: #444;
+}
+
+.toggle-circle {
+  width: 26px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle.dark .toggle-circle {
+  left: 32px;
+  background: transparent;
+  color: white;
+}
+
+.sun {
+  background-color: black;
+  border-radius: 50%;
+  padding: 1px 2px;
+}
+
+.moon {
+  background-color: rgba(86, 81, 81, 0.61);
+  border-radius: 50%;
+  padding: 1px 2px;
+}
